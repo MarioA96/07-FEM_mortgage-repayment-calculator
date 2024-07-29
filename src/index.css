@@ -1,0 +1,22 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@font-face {
+    font-family: 'Plus Jakarta Sans Italic';
+    src: url('/07-FEM_mortgage-repayment-calculator/assets/fonts/static/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('ttf');
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans Regular';
+    src: url('/07-FEM_mortgage-repayment-calculator/assets/fonts/static/PlusJakartaSans-VariableFont_wght.ttf') format('ttf');
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --font-plusjakarta-italic: 'Plus Jakarta Sans Italic', sans-serif;
+    --font-plusjakarta-regular: 'Plus Jakarta Sans Regular', sans-serif;
+}
